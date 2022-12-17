@@ -99,7 +99,7 @@ body{
         padding: 0 2px;     
 }
 .images{
-    padding-left:100px ;
+   text-align: center;
     margin: 0;
 }
 .para-2{
@@ -135,7 +135,7 @@ body{
 }
 .client-logo{
    background-color: rgb(224 224 224);
-   padding-left: 185px;
+   padding-left: 177px;
    margin:0 100px 
 }
 .logo-img{
@@ -211,40 +211,35 @@ body{
     display: none;
 }
 .pic1{
-    width: 78em;
+    width: 79em;
     height: auto;
 }
 #head{
-    display: flex;
-    justify-content: right;
-    background-color: rgb(251, 253, 253);
-    list-style-type: none;
-    padding: 11px 13px;
-    margin: 0;
+   
     width: 100%;
 }
 .head-1 {
-    top: 763px;
+    top: 773px;
     background-color: white;
     opacity: 0.7;
-    width: 78em;
+    width: 79em;
     justify-content: space-between;
 }
 
 #middle{
     margin: 0 152px;
     height: 877px;
-    width: 59em;
+    width: 60em;
 }
 .para {
     padding: 100px 140px 65px 140px;
 }
 
 #conclusion {
-    width: 65em;
+    width: 66em;
 }
 .client-logo{
-    width: 854px;
+    width: 865px;
 }
 .btn{
     margin: 1px 44px;
@@ -259,5 +254,66 @@ body{
 .images {
     padding: 10px 44px;
     margin: 14px;
+}
+/* body{
+    width: 342%;
+} */
+}
+@media only screen and (min-width: 768px) {
+    
+.head-1{
+    width: 98em;
+    top: 972px;
+}
+.pic1{
+    width: 98em;
+    height: auto;
+}
+#middle{
+    width: 110%;
+    margin: 0 330px;
+}
+.images{
+    width: 161%;
+   text-align: center;
+   position: relative;
+    left: 100px;
+}
+#conclusion {
+    width: 142%;
+    margin: 0 228px;
+}
+.client-logo{
+    width: 119%;
+    margin: 0 217px;
+}
+}
+@media only screen and (min-width: 992px){
+    .head-1{
+        width: 100%;
+        top: 716px;
+    }
+    .pic1{
+        width: 100%;
+        height: auto;
+}
+#middle {
+    width: 65%;
+    margin: 0 232px;
+}
+#conclusion {
+    width: 87%;
+    margin: 0 100px;
+}
+.client-logo{
+    width: 72%;
+    margin: 0 100px;
+}
+.images{
+    width: 100%;
+    position: static;
+}
+.button-1{
+    left: 681px;
 }
 }
